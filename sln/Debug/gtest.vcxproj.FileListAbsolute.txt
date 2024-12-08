@@ -1,0 +1,1 @@
+C:\Users\User\Desktop\Алгоритмы и данные\mp2-lab2-matrix\sln\Debug\gtest.lib

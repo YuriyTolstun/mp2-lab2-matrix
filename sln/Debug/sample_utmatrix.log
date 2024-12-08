@@ -1,0 +1,24 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (gtest.vcxproj, test_utmatrix.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  sample_matrix.cpp
+C:\Users\User\Desktop\Алгоритмы и данные\mp2-lab2-matrix\include\tmatrix.h(57,30): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "../samples/sample_matrix.cpp")
+  C:\Users\User\Desktop\Алгоритмы и данные\mp2-lab2-matrix\include\tmatrix.h(57,30):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\User\Desktop\Алгоритмы и данные\mp2-lab2-matrix\samples\sample_matrix.cpp(21,10):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "TDynamicVector<T>"
+          with
+          [
+              T=int
+          ]
+  	C:\Users\User\Desktop\Алгоритмы и данные\mp2-lab2-matrix\include\tmatrix.h(55,21):
+  	во время компиляции функции-члена класс шаблон "std::ostream &operator <<(std::ostream &,const TDynamicVector<T> &)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\User\Desktop\Алгоритмы и данные\mp2-lab2-matrix\include\tmatrix.h(296,31):
+  		см. первую ссылку на "operator <<" в "operator <<"
+  		C:\Users\User\Desktop\Алгоритмы и данные\mp2-lab2-matrix\samples\sample_matrix.cpp(25,38):
+  		см. первую ссылку на "operator <<" в "main"
+  
+  sample_utmatrix.vcxproj -> C:\Users\User\Desktop\Алгоритмы и данные\mp2-lab2-matrix\sln\Debug\sample_utmatrix.exe
